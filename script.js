@@ -19,7 +19,6 @@
 // let age = 25,
 //     thisYear = 2020,
 //     name = 'Polina';
-
 // let yearOfBirth = thisYear - age;
 // console.log(`My name is ${name}. I was born in ${yearOfBirth}  and I'm ${age} years old`)
 // console.log(yearOfBirth)
