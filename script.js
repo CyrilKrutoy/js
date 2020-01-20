@@ -30,18 +30,18 @@
 
 //  // Circle square
 
-// // option1________________________________________________
+// option1________________________________________________
 
-// let radius = parseFloat("5.67cm"),
-//     result = Math.round(Math.PI * (Math.pow(radius, 2)));
-// console.log(`Circle square is ${result}`)
+let radius = parseFloat("5.67cm"),
+    result = Math.round(Math.PI * (Math.pow(radius, 2)));
+console.log(`Circle square is ${result}`)
 
 
-// //option2_________________________________________________
-// let radius = parseFloat("5.67cm");
-// let resultRadius = Math.pow(radius, 2);
-// // console.log(resultRadius)
-// let resultPiRadius = Math.PI * resultRadius;
-// // console.log(resultPiRadius)
-// let result = Math.round(resultPiRadius);
-// console.log(result)   
+//option2_________________________________________________
+let radius2 = parseFloat("5.67cm");
+let resultRadius = Math.pow(radius, 2);
+// console.log(resultRadius)
+let resultPiRadius = Math.PI * resultRadius;
+// console.log(resultPiRadius)
+let result2 = Math.round(resultPiRadius);
+console.log(`Circle square is ${result2}`)   
