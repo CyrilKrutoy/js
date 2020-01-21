@@ -30,13 +30,14 @@ console.log(`My name is ${name}. I was born in ${yearOfBirth}  and I'm ${age} ye
 // option1________________________________________________
 
 let radius = parseFloat("5.67cm"),
-    result = Math.round(Math.PI * (Math.pow(radius, 2)));
+    result = Math.floor(Math.PI * (Math.pow(radius, 2)));
 console.log(`Circle square is ${result}`)
 
 
 //option2_________________________________________________
+
 let radius2 = parseFloat("5.67cm");
 let resultRadius = Math.pow(radius, 2);
 let resultPiRadius = Math.PI * resultRadius;
-let result2 = Math.round(resultPiRadius);
+let result2 = Math.floor(resultPiRadius);
 console.log(`Circle square is ${result2}`)   
