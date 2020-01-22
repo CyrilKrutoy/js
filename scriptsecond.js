@@ -28,15 +28,39 @@
 
 // // Enter number 
 
-let enterNumber = +prompt('Введите число!')
-console.log('Enter number: ', enterNumber, "type: ", typeof (enterNumber))
-if (enterNumber < 0) {
-    result = enterNumber % 3 === 0 ? enterNumber ** 2 : enterNumber % 8;
+// let enterNumber = +prompt('Введите число!')
+// console.log('Enter number: ', enterNumber, "type: ", typeof (enterNumber))
+// if (enterNumber < 0) {
+//     result = enterNumber % 3 === 0 ? enterNumber ** 2 : enterNumber % 8;
+// }
+// else if (enterNumber > 0) {
+//     let more = Math.ceil(Math.sqrt(enterNumber));
+//     result = more > 1 ? more ** 2 : more - 0.5;
+// } else {
+//     result = enterNumber.toString();
+// }
+// alert(`${result} (${typeof (result)})`);
+
+
+// GAME
+function guess() {
+    let randomNumber = Math.random() * 10;
+    let ourNumber = Math.round(randomNumber);
+    if (confirm("Нажмите ОК если вам есть 18")) {
+        tryToGuess();
+    }
+    else {
+        alert("Вы слишком молоды")
+    }
 }
-else if (enterNumber > 0) {
-    let more = Math.ceil(Math.sqrt(enterNumber));
-    result = more > 1 ? more ** 2 : more - 0.5;
-} else {
-    result = enterNumber.toString();
+function tryToGuess() {
+    let userGuess = +prompt("Какую цифру мы загадали?");
+    if (userGuess == ourNumber) {
+        alert("Угадали!")
+    }
+    else {
+        alert("Нет! Попробуйте еще!");
+        tryToGuess();
+    }
 }
-alert(`${result} (${typeof (result)})`);
+
