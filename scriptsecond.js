@@ -4,7 +4,7 @@
 // console.log('Ask user: ', isUserNumber, "type: ", typeof (isUserNumber));
 
 // if (isUserNumber) {
-//     let number = +p  rompt("Введите число");
+//     let number = +prompt("Введите число");
 //     console.log('Inputed number: ', number, "type: ", typeof number);
 //     if (isNaN(number)) {
 //         alert('Это не число!');
@@ -34,7 +34,7 @@
 // }
 // else if (enterNumber > 0) {
 //     let squareRoot = Math.sqrt(enterNumber);
-//     let more = Math.ceil(square Root);
+//     let more = Math.ceil(squareRoot);
 //     result = more > 1 ? more ** 2 : more - 0.5;
 // } else {
 //     result = enterNumber.toString();
