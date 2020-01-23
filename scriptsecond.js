@@ -27,7 +27,6 @@
 
 
 // // Enter number 
-//function  en ( ) {
 // let enterNumber = +prompt('Введите число!')
 // console.log('Enter number: ', enterNumber, "type: ", typeof (enterNumber))
 // if (enterNumber < 0) {
@@ -41,7 +40,7 @@
 //     result = enterNumber.toString();
 // }
 // alert(`${result} (${typeof (result)})`);
-// }
+
 
 // GAME
 function guess() {
