@@ -27,7 +27,6 @@
 
 
 // // Enter number 
-
 // let enterNumber = +prompt('Введите число!')
 // console.log('Enter number: ', enterNumber, "type: ", typeof (enterNumber))
 // if (enterNumber < 0) {
