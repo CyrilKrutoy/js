@@ -34,7 +34,8 @@
 //     result = enterNumber % 3 === 0 ? enterNumber ** 2 : enterNumber % 8;
 // }
 // else if (enterNumber > 0) {
-//     let more = Math.ceil(Math.sqrt(enterNumber));
+//     let squareRoot = Math.sqrt(enterNumber);
+//     let more = Math.ceil(square Root);
 //     result = more > 1 ? more ** 2 : more - 0.5;
 // } else {
 //     result = enterNumber.toString();
