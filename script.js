@@ -7,7 +7,7 @@ let a = 2.4,
     b = 3.3,
     aResult = a * b;
 let areaResult = parseFloat(aResult.toFixed(1));
-console.log(areaResult, typeof areaResult)
+console.log(areaResult, typeof areaResult);
 
 
 
@@ -40,4 +40,4 @@ let radius2 = parseFloat("5.67cm");
 let resultRadius = Math.pow(radius, 2);
 let resultPiRadius = Math.PI * resultRadius;
 let result2 = Math.floor(resultPiRadius);
-console.log(`Circle square is ${result2}`)   
+console.log(`Circle square is ${result2}`)
